@@ -1,0 +1,95 @@
+
+
+
+ #about .about-container .icon-box .icon i {
+    color: #2dc997;
+    font-size: 24px;
+    line-height: 0;
+
+  }
+  #about .about-container #v{
+    
+    height: 200px;  
+    width: 250px;  
+    border: 7px ridge blue;
+  }
+  
+  #about .about-container .icon-box .icon i {
+      color: #2dc997;
+      font-size: 24px;
+      line-height: 0;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  i {
+      font-style: italic;
+  }
+  #about .about-container .icon-box .icon {
+      float: left;
+      background: #fff;
+      width: 64px;
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 50%;
+      border: 2px solid #2dc997;
+  }
+  i {
+      font-style: italic;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  .row {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(var(--bs-gutter-y) * -1);
+      margin-right: calc(var(--bs-gutter-x)/ -2);
+      margin-left: calc(var(--bs-gutter-x)/ -2);
+  }
+  #about .about-container .icon-box .description {
+      margin-left: 80px;
+      line-height: 24px;
+      font-size: 14px;
+  }
+  #about .about-container p:last-child {
+      margin-bottom: 0;
+  }
+  
+  element.style {
+  }
+  #about .about-container .icon-box .title {
+      margin-left: 80px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      font-size: 18px;
+      text-transform: uppercase;
+		
+  }
+  #about .about-container .title {
+      color: #333;
+      font-weight: 700;
+      font-size: 32px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      margin: 0 0 20px 0;
+      padding: 0;
+  }
+  h4 {
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  
